@@ -337,6 +337,7 @@ html {
 
 .about-head h1 {
   padding-top: 24px;
+  padding: 0 10px;
   margin: 0;
 }
 
@@ -348,6 +349,8 @@ html {
   width: 100%;
   align-items: center;
 }
+
+
 
 /* Image Styling */
 .images {
@@ -375,6 +378,13 @@ html {
   padding: 20px;
 }
 
+
+@media (max-width: 768px) {
+ .images {
+    max-width: 90%;
+  }
+}
+
 /* Text Section */
 .text {
   font-size: 1.2rem;
@@ -396,7 +406,7 @@ html {
 }
 
 .button1:hover {
-  background: #222;
+  background: var(--pages-bg-color);
 }
 
 /* about Section Styling */
@@ -558,7 +568,7 @@ html {
 .container1 h1 {
   font-size: 36px;
   text-transform: uppercase;
-  color: var(--secondary-color);
+  color: purple;
   margin-bottom: 30px;
   font-family: "Roboto", sans-serif;
   transform: var(--skew);
