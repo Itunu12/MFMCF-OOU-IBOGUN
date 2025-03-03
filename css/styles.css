@@ -378,6 +378,10 @@ html {
   padding: 20px;
 }
 
+.team-head{
+color: red;
+z-index: 1;
+}
 
 @media (max-width: 768px) {
  .about-text .images{
@@ -522,9 +526,10 @@ html {
 }
 
 .team h2 {
-  color: white;
+  color: red;
   text-align: center;
   margin-bottom: 1.5rem;
+  z-index: 1000;
 }
 
 .team-grid {
@@ -544,9 +549,13 @@ html {
   margin-bottom: 1rem;
 }
 
+
 .team h2 {
-  color: var(--primary-color);
+  padding-top: 20px;
+  color: white;
   text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .team-member h3 {
