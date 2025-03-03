@@ -380,8 +380,9 @@ html {
 
 
 @media (max-width: 768px) {
- .images {
-    max-width: 90%;
+ .about-text .images{
+    margin-left: 16px;
+    width: 90%;
   }
 }
 
