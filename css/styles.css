@@ -90,6 +90,7 @@ html {
   align-items: center;
 }
 
+
 .logo {
   height: 32px;
   margin-right: 0;
@@ -388,6 +389,10 @@ z-index: 1;
     margin-left: 16px;
     width: 90%;
   }
+
+  .content1 .images {
+  width: 90%;
+}
 }
 
 /* Text Section */
@@ -1185,7 +1190,7 @@ textarea {
 
 .footer-bottom {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 5px;
   font-size: 12px;
   border-top: 1px solid #444;
   padding-top: 10px;
