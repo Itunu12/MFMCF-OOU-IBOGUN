@@ -12,7 +12,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   background: var(--secondary-color);
-  overflow-x: hidden;
+
 }
 
 body,
@@ -21,6 +21,7 @@ html {
   scroll-behavior: smooth; /* Ensures smooth scrolling */
   padding: 0;
   margin: 0;
+  background-color: #222;
 }
 
 :root {
@@ -339,6 +340,7 @@ html {
   padding-top: 24px;
   padding: 0 10px;
   margin: 0;
+  background-color: white;
 }
 
 /* Layout: Image + Text */
@@ -579,7 +581,7 @@ html {
 .container1 h1 {
   font-size: 36px;
   text-transform: uppercase;
-  color: purple;
+  color: white;
   margin-bottom: 30px;
   font-family: "Roboto", sans-serif;
   transform: var(--skew);
